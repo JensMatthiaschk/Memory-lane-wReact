@@ -1,7 +1,9 @@
 import { useState } from 'react'
-import './App.css'
 import InputMem from './InputMem'
 
+import { Container, Row, Col, Card } from "react-bootstrap";
+import InputForm from './InputForm'
+import Gallery from './Gallery'
 
 function App() {
   const [memory, setTodos] = useState(['mem1', 'mem2'])
@@ -9,10 +11,14 @@ function App() {
   return (
     <>
 
-      <h1> going down memory lane</h1>
-      <InputMem memory={memory} />
 
+      {/* <InputMem memory={memory} />
+ */}
 
+      <div className="App">
+        <InputForm />
+        <Gallery />
+      </div>
     </>
   )
 }
