@@ -3,5 +3,22 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+<<<<<<< HEAD
     height: 100vh;
 }
+=======
+    height: 100%;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 21vw;
+    object-fit: cover;
+}
+
+.navbar {
+    background-color: transparent;
+    width: 100%;
+    justify-content: space-evenly;
+}
+>>>>>>> d399b36c5c1dc3b8b8a504f6066c4253a3b524fc
