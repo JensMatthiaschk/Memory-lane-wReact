@@ -35,9 +35,7 @@ function App() {
             <Gallery memories={memories} />
           </div>
         </div>
-        <footer className="container">
-          <p>copyright @ 2022 - MFJ</p>
-        </footer>
+
       </div>
     </>
   )
