@@ -1,0 +1,7 @@
+body {
+    background-image: linear-gradient(rgba(198, 126, 249, 0.4), rgba(137, 255, 247, 0.4) ), url("./Media/paper-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
