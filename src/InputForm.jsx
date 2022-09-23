@@ -28,7 +28,7 @@ export default function InputForm(props) {
 
     return (
         <div className="container">
-            <h2>Add your Memory</h2>
+            <h4>Add your Memory</h4>
             <form onSubmit={handleSubmit}>
                 <div className="row">
                     <div className="form-group mb-4">

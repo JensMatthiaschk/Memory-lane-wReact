@@ -16,6 +16,8 @@ function App() {
     setMemories(memories => [...memories, ...newMemoryStateFromForm])
   };
 
+  const [active, setActive] = useState(false)
+  console.log(active)
 
   return (
     <>
@@ -24,16 +26,17 @@ function App() {
           <Navbar />
         </div>
         <div className="container text-center m-3">
-          <button className="btn btn-light">➕</button>
+          <button onClick={() => setActive(!active)} className="btn btn-light">{active ? "➖" : <strong>➕ Add your Memory</strong>}</button>
         </div>
-        <InputForm onSubmit={getData} />
+        {active ? <InputForm
+          onSubmit={getData} /> : ""}
         <div className="container">
           <div className="row">
             <Gallery memories={memories} />
           </div>
         </div>
-        <footer className="text-center">
-          <p>copyright MFJ @ 2022</p>
+        <footer className="container">
+          <p>copyright @ 2022 - MFJ</p>
         </footer>
       </div>
     </>
