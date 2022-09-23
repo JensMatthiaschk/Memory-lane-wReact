@@ -1,9 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ms+Madi&family=Raleway+Dots&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&display=swap');
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ms Madi', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Raleway Dots', cursive;
+font-family: 'Sacramento', cursive;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-image: linear-gradient(rgba(198, 126, 249, 0.4), rgba(137, 255, 247, 0.4) ), url("./Media/paper-background.jpg");
+    background-image: linear-gradient(to bottom right, rgba(253, 154, 97, 0.243), rgba(63, 246, 234, 0.39)), url("./Media/paper-background.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    height: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;;
+}
+
+a h1 {
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Ms Madi', cursive;
+    font-size: 60px;
 }
 
 .card-img-top {
@@ -16,4 +43,37 @@ body {
     background-color: transparent;
     width: 100%;
     justify-content: space-evenly;
+}
+
+strong {
+    color: #464646;
+}
+
+footer {
+    padding:20px;
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+h4 {
+    padding: 20px 0;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+button strong {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.card-body {
+    background-color: #f8f9fa;
 }
