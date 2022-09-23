@@ -43,8 +43,6 @@ export default function Gallery(props) {
     else {
         return (
             <>
-                <p>antoherThing</p>
-
                 <div className="col-12 col-sm-6 col-md-4 g-3"></div>
                 <div className="card border-secondary mb-sm-3 mb-lg-5">
                     <img src="https://tse3.mm.bing.net/th?id=OIP.rliCHkimK_S9BcNqiK4eDwHaF4" alt="Gallery-img-from-db" className="card-img-top" />
@@ -57,7 +55,6 @@ export default function Gallery(props) {
                         <small className="text-muted">by <br /> somewhere at </small>
                     </div>
                 </div>
-
             </>
         )
     }

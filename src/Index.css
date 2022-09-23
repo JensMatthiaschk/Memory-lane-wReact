@@ -77,3 +77,7 @@ button strong {
 .card-body {
     background-color: #f8f9fa;
 }
+
+footer p {
+    text-align: center;
+}
