@@ -10,7 +10,7 @@ export default function InputForm(props) {
     const [location, setLocation] = useState("");
     const [memory, setMemory] = useState("");
     const [imageURL, setImageUrl] = useState("");
-    //    const [memList, setMemList] = useState([]);
+    const [memList, setMemList] = useState([]);
 
     const handleSubmit = (e) => {
         e.preventDefault();
