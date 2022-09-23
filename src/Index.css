@@ -1,12 +1,8 @@
 body {
-    background-image: linear-gradient(rgba(198, 126, 249, 0.4), rgba(137, 255, 247, 0.4) ), url("./Media/paper-background.jpg");
+    background-image: linear-gradient(rgba(198, 126, 249, 0.4), rgba(137, 255, 247, 0.4)), url("./Media/paper-background.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-<<<<<<< HEAD
-    height: 100vh;
-}
-=======
     height: 100%;
 }
 
@@ -21,4 +17,3 @@ body {
     width: 100%;
     justify-content: space-evenly;
 }
->>>>>>> d399b36c5c1dc3b8b8a504f6066c4253a3b524fc

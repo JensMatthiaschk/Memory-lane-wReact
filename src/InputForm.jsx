@@ -10,23 +10,13 @@ export default function InputForm(props) {
     const [location, setLocation] = useState("");
     const [memory, setMemory] = useState("");
     const [imageURL, setImageUrl] = useState("");
-    const [memList, setMemList] = useState([]);
+    //    const [memList, setMemList] = useState([]);
 
     const handleSubmit = (e) => {
         e.preventDefault();
         const memoryEntry = { title, name, time, timePeriod, location, memory, imageURL }
         props.onSubmit([...memList, memoryEntry])
 
-<<<<<<< HEAD
-        //Store in array and reset form
-        setMemList(memList => [...memList, memoryEntry])
-
-        setTitle("")
-        setName("")
-        setTime("")
-        setLocation("")
-        setMemory("")
-=======
         setTitle("")
         setName("")
         setTime("")
@@ -34,7 +24,6 @@ export default function InputForm(props) {
         setLocation("")
         setMemory("")
         setImageUrl("")
->>>>>>> d399b36c5c1dc3b8b8a504f6066c4253a3b524fc
     }
 
     return (
@@ -104,10 +93,7 @@ export default function InputForm(props) {
                                 required
                                 value={imageURL}
                                 onChange={(e) => setImageUrl(e.target.value)}
-<<<<<<< HEAD
-=======
                                 placeholder="e.g. https://image.com/image.jpg"
->>>>>>> d399b36c5c1dc3b8b8a504f6066c4253a3b524fc
                             />
                         </div>
                     </div>
