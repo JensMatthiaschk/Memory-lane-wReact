@@ -14,7 +14,7 @@ export default function InputForm(props) {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        const memoryEntry = { id: "", title: "", name: "", time: "", timePeriod: "", location: "", memory: "", imageURL: "" }
+        const memoryEntry = { title, name, time, timePeriod, location, imageURL }
         props.onSubmit([...memList, memoryEntry])
 
         setTitle("")
